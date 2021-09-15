@@ -1,0 +1,117 @@
+.navbar{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.navbar-brand{
+  padding-left: 90px;
+  font-size: 30px;
+  color: #a0522d;
+}
+.collapse{
+  padding-right: 60px;
+}
+.nav-item{
+  padding-right: 30px;
+}
+.nav-link:hover{
+  color: #b5651d;
+  border-radius: 4px;
+}
+.nav-link{
+  color: #a0522d;
+  display: inline-block;
+}
+.nav-link::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: black;
+  transition: 300ms;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+@media (min-width:768px) and (max-width:1023px){
+  #carousalExampleSlidesOnly img{
+    height: auto;
+    min-height: unset;
+  }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    height:100%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url("https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZG9uYXRpb258ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+main{
+    min-height: 100vh;
+    padding: 1rem 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    flex:1 1 40rem;
+    height:30rem;
+    background:url(images/donation.jpg),url(images/about-frame-img.png) no-repeat;;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: screen;
+    border-radius: 100px;
+}
+
+/*.content{
+    flex:1 1 40rem;
+    padding:2rem;
+    color: #fff;
+    border: 2px goldenrod solid;
+    background: transparent;
+    margin-left: 3rem;
+    border-radius: 20px;
+    line-height: 1.5;
+}
+.content h1{
+    font-size: 4rem;
+    color:greenyellow;
+}
+
+.content p{
+    font-size: 1.5rem;
+    padding:1rem 0;
+}
+*/
+.content h1{
+  font-size: 4rem;
+  color: yellow;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.para {
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+.slogan{
+  font-family: 'Playfair Display', serif;
+  color: MediumSeaGreen;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.pay{
+  text-align: center;
+}
